@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img alt="Noir Nebula Logo" src="https://raw.githubusercontent.com/DevKailash/noir-nebula-theme/main/themes/logo.png" width="100" />
+  <img alt="Noir Nebula Logo" src="https://raw.githubusercontent.com/DevKailash/quick-copy-paste/main/src/images/letter-k.png" width="100" />
 </p>
 <h1 align="center">
   Quick Copy Paste for VS Code
