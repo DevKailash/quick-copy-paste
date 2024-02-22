@@ -1,0 +1,4 @@
+"activationEvents": [
+    "onCommand:quick-copy-paste.copySelectedText",
+    "onCommand:quick-copy-paste.pasteText"
+  ],
