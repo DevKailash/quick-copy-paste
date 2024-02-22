@@ -1,71 +1,53 @@
-# quick-copy-paste README
 
-This is the README for your extension "quick-copy-paste". After writing up a brief description, we recommend including the following sections.
+<p align="center">
+  <img alt="Noir Nebula Logo" src="https://raw.githubusercontent.com/DevKailash/noir-nebula-theme/main/themes/logo.png" width="100" />
+</p>
+<h1 align="center">
+  Quick Copy Paste for VS Code
+</h1>
+<p align="center">
+    Quick Copy Paste is a versatile VS Code extension that enhances your coding workflow with seamless copy-paste functionality across all programming languages and file types. With Quick Copy Paste, you can perform one-click copying and double-click pasting of selected text within your editor, making it easier and faster to manipulate code snippets and text.
+</p>
+<div align="center">
+  <img alt="Noir Nebula Demo" src="https://raw.githubusercontent.com/DevKailash/noir-nebula-theme/main/screenshots/noir-nebula-screenshot.png" style="box-shadow: rgba(100, 100, 111, 0.8) 0px 12px 37px 0px;" />
+</div>
+
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- One-click copying of selected text.
+- Double-click pasting of copied text.
+- Supports all programming languages and file types.
+- Lightweight and efficient.
+- Intuitive and easy-to-use interface.
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Open Visual Studio Code.
+2. Go to the Extensions view by clicking on the square icon in the sidebar.
+3. Search for "Quick Copy Paste" in the Extensions Marketplace.
+4. Click on the Install button.
+5. Once installed, reload Visual Studio Code to activate the extension.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Usage
 
-## Requirements
+1. Select the text you want to copy.
+2. Click once to copy the selected text.
+3. Double-click where you want to paste the copied text.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+That's it! Enjoy the enhanced copy-paste functionality with Quick Copy Paste.
 
-## Extension Settings
+## Configuration
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Quick Copy Paste does not require any configuration. However, you can customize its behavior by modifying settings in the Visual Studio Code settings file.
 
-For example:
+```json
+{
+  "quickCopyPaste.copyOnClick": true,
+  "quickCopyPaste.pasteOnDoubleClick": true
+}
+```
 
-This extension contributes the following settings:
+## License
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+This extension is licensed under the [MIT License](https://raw.githubusercontent.com/DevKailash/quick-copy-paste/main/LICENSE).
